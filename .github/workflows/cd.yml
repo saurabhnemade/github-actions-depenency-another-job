@@ -6,11 +6,6 @@ on:
     types:
       - completed
 
-  pull_request:
-    type: [opened, synchronize, reopened, ready_for_review]
-    branches:
-      - main
-
 jobs:
   deploy:
     name: Deploy
